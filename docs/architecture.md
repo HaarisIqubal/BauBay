@@ -20,9 +20,10 @@ Understanding BauBay's system design and structure.
 ├─────────────────────────────────────────────────────────┤
 │                                                          │
 │  ┌──────────────────────┐  ┌──────────────────────┐   │
-│  │  Gemini AI Service   │  │  Browser APIs        │   │
-│  │  - Image Analysis    │  │  - Camera            │   │
-│  │  - Chat Assistant    │  │  - Geolocation       │   │
+│  │  AI Services         │  │  Browser APIs        │   │
+│  │  - Gemini (NLP)      │  │  - Camera            │   │
+│  │  - PyTorch (ML)      │  │  - Geolocation       │   │
+│  │  - ONEWare Studio    │  │                      │   │
 │  └──────────────────────┘  └──────────────────────┘   │
 │                                                          │
 └─────────────────────────────────────────────────────────┘
@@ -55,10 +56,16 @@ Understanding BauBay's system design and structure.
 
 ### AI Integration
 - **Google Gemini API 1.30.0**
-  - Gemini 2.5 Flash (image analysis)
-  - Gemini 2.0 Flash (chat)
+  - Gemini 2.5 Flash (natural language processing)
+  - Gemini 2.0 Flash (chat assistant)
   - Function calling
   - Structured output
+
+- **PyTorch ML Model**
+  - Custom object detection model
+  - Material recognition and classification
+  - Trained on ONEWare Studio AI Platform
+  - Real-time inference for material scanning
 
 ### Browser APIs
 - **Camera API** - Image capture
@@ -453,11 +460,11 @@ const WithAuth = (Component) => (props) => {
 - Modern tooling
 - ES modules native
 
-### 3. Why Gemini over OpenAI?
-- Free tier generous
-- Multimodal support
-- Function calling
-- Fast inference
+### 3. Why Gemini + PyTorch?
+- **Gemini:** Free tier generous, multimodal support, function calling
+- **PyTorch:** Custom object detection, precise material recognition
+- **ONEWare Studio:** Specialized construction material training dataset
+- **Hybrid approach:** NLP + Computer Vision for comprehensive analysis
 
 ### 4. Why No State Library?
 - Simple state needs

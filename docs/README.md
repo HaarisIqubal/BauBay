@@ -17,6 +17,7 @@ Welcome to the BauBay technical documentation. This guide will help you understa
 
 ### Features
 - **[Material Scanner](./features/scanner.md)** - AI-powered material detection
+- **[PyTorch Object Detection](./features/pytorch-model.md)** - ML model documentation
 - **[Inventory Management](./features/inventory.md)** - Material tracking system
 - **[Marketplace](./features/marketplace.md)** - Material exchange platform
 - **[Chat Assistant](./features/chat.md)** - AI conversational interface

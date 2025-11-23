@@ -19,6 +19,8 @@ BauBay is an intelligent construction material management system that helps site
 [![Version](https://img.shields.io/badge/version-1.0.0-orange.svg?style=flat)](https://github.com/HaarisIqubal/BauBay/releases)
 
 [![Powered by Google Gemini](https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4?style=flat&logo=google)](https://ai.google.dev/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-ML%20Model-EE4C2C?style=flat&logo=pytorch)](https://pytorch.org/)
+[![ONEWare Studio](https://img.shields.io/badge/Trained%20on-ONEWare%20Studio-00ADD8?style=flat)](https://oneware.ai/)
 [![Built with React](https://img.shields.io/badge/Built%20with-React%2019-61DAFB?style=flat&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=flat&logo=vite)](https://vitejs.dev/)
@@ -36,10 +38,12 @@ BauBay is an intelligent construction material management system that helps site
 
 ### 📸 **AI Material Scanner**
 - Batch scan construction materials using your camera
+- **PyTorch-powered object detection** for precise material identification
 - Automatic identification and categorization (Wood, Metal, Concrete, Brick, Electrical, Glass)
 - AI-powered condition assessment and reusability scoring
 - Instant market value estimation
 - Geolocation tagging for materials
+- **Custom ML model trained on ONEWare Studio AI Platform**
 
 ### 📦 **Inventory Management**
 - Track all recovered materials in one dashboard
@@ -116,11 +120,15 @@ BauBay is an intelligent construction material management system that helps site
 
 - **Frontend Framework:** React 19 with TypeScript
 - **Build Tool:** Vite
-- **AI Integration:** Google Gemini API (@google/genai)
+- **AI Integration:** 
+  - Google Gemini API (@google/genai) for natural language processing
+  - **PyTorch ML Model** for object detection and material recognition
+- **ML Training Platform:** **ONEWare Studio AI Platform**
 - **Styling:** TailwindCSS (custom utility classes)
 - **State Management:** React Hooks
 - **Geolocation:** Browser Geolocation API
 - **Image Processing:** File API with Camera integration
+- **Object Detection:** Custom PyTorch model for construction materials
 
 ---
 
@@ -193,10 +201,11 @@ Comprehensive documentation is available in the `/docs` folder:
 - [Troubleshooting](./docs/reference/troubleshooting.md) - Solutions to common issues
 
 **Features:**
-- Material Scanner - AI-powered detection (coming soon)
-- Inventory Management - Material tracking (coming soon)
-- Marketplace - Material exchange (coming soon)
-- Chat Assistant - AI interface (coming soon)
+- [Material Scanner](./docs/features/scanner.md) - AI-powered detection (coming soon)
+- [PyTorch Object Detection](./docs/features/pytorch-model.md) - ML model documentation
+- [Inventory Management](./docs/features/inventory.md) - Material tracking (coming soon)
+- [Marketplace](./docs/features/marketplace.md) - Material exchange (coming soon)
+- [Chat Assistant](./docs/features/chat.md) - AI interface (coming soon)
 
 ---
 
@@ -216,7 +225,9 @@ This project is built as part of the Google Gemini AI Studio demonstration.
 
 ## 🙏 Acknowledgments
 
-- Powered by **Google Gemini AI** for intelligent material recognition
+- Powered by **Google Gemini AI** for intelligent natural language processing
+- **PyTorch** for deep learning-based object detection
+- **ONEWare Studio AI Platform** for ML model training and optimization
 - Built with **React** and **Vite** for modern web development
 - Inspired by circular economy principles in construction
 
