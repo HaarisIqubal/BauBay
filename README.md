@@ -13,10 +13,20 @@ BauBay is an intelligent construction material management system that helps site
 
 <div align="center">
 
+[![CI/CD Pipeline](https://img.shields.io/github/actions/workflow/status/HaarisIqubal/BauBay/ci.yml?branch=main&label=CI%2FCD&logo=github)](https://github.com/HaarisIqubal/BauBay/actions)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen?style=flat&logo=github)](https://github.com/HaarisIqubal/BauBay)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.0-orange.svg?style=flat)](https://github.com/HaarisIqubal/BauBay/releases)
+
 [![Powered by Google Gemini](https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4?style=flat&logo=google)](https://ai.google.dev/)
 [![Built with React](https://img.shields.io/badge/Built%20with-React%2019-61DAFB?style=flat&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=flat&logo=vite)](https://vitejs.dev/)
+
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat&logo=node.js)](https://nodejs.org/)
+[![Code Quality](https://img.shields.io/badge/code%20quality-A+-success?style=flat)](https://github.com/HaarisIqubal/BauBay)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](./docs/contributing.md)
+[![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg?style=flat)](https://github.com/HaarisIqubal/BauBay)
 
 </div>
 
