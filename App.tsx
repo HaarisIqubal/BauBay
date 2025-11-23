@@ -13,7 +13,7 @@ import { NavBar } from './components/NavBar';
 const INITIAL_INVENTORY: MaterialItem[] = [
   {
     id: '1',
-    name: 'Weathered Pine Beams',
+    name: 'Weathered Pine Beamss',
     description: 'Structural pine beams recovered from demolition in Altstadt. Minor surface weathering but structurally sound.',
     category: MaterialCategory.WOOD,
     condition: Condition.GOOD,
