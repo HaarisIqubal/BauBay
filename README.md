@@ -2,19 +2,206 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# 🏗️ BauBay
 
-This contains everything you need to run your app locally.
+**AI-Powered Construction Material Recovery & Marketplace Platform**
 
-View your app in AI Studio: https://ai.studio/apps/drive/1jjZGmtihvBCLizVR1NtmE7x7_2CGbwkQ
+BauBay is an intelligent construction material management system that helps site managers identify, value, and trade surplus materials. By leveraging AI-powered material recognition and real-time marketplace features, BauBay promotes circular economy practices in the construction industry while reducing waste and maximizing resource recovery value.
 
-## Run Locally
+[![Powered by Google Gemini](https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4?style=flat&logo=google)](https://ai.google.dev/)
+[![Built with React](https://img.shields.io/badge/Built%20with-React%2019-61DAFB?style=flat&logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 
-**Prerequisites:**  Node.js
+---
 
+## 🌟 Key Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 📸 **AI Material Scanner**
+- Batch scan construction materials using your camera
+- Automatic identification and categorization (Wood, Metal, Concrete, Brick, Electrical, Glass)
+- AI-powered condition assessment and reusability scoring
+- Instant market value estimation
+- Geolocation tagging for materials
+
+### 📦 **Inventory Management**
+- Track all recovered materials in one dashboard
+- Internal project matching to identify reuse opportunities within your organization
+- Real-time sustainability metrics (CO₂ avoided, waste diverted, trees saved)
+- Filter materials by category, value, and condition
+- Publish materials to marketplace or keep internal
+
+### 🛒 **Material Marketplace**
+- Browse available materials from other construction sites in your region
+- Distance-based search (example: Nuremberg region)
+- Add items to cart and request materials
+- View pickup times, access requirements, and location details
+- Track material requests and approval status
+
+### 💬 **AI Chat Assistant**
+- Natural language material search
+- Intelligent recommendations based on project needs
+- Quick add-to-cart functionality
+- Context-aware suggestions
+
+### 📊 **Sustainability Dashboard**
+- Track environmental impact with animated metrics
+- Monthly CO₂ savings visualization
+- Value recovery analytics
+- Real-time impact reporting
+
+### 🔔 **Smart Notifications**
+- Customizable alerts for new materials
+- Category-based preferences (Wood, Metal, High Value items, etc.)
+- Real-time marketplace updates
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- **Node.js** (v18 or higher)
+- **Gemini API Key** from [Google AI Studio](https://ai.google.dev/)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/HaarisIqubal/BauBay.git
+   cd BauBay
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment**
+   
+   Create a `.env.local` file in the root directory:
+   ```env
+   VITE_GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+
+4. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   
+   Navigate to `http://localhost:5173` to see the app in action!
+
+---
+
+## 🏗️ Tech Stack
+
+- **Frontend Framework:** React 19 with TypeScript
+- **Build Tool:** Vite
+- **AI Integration:** Google Gemini API (@google/genai)
+- **Styling:** TailwindCSS (custom utility classes)
+- **State Management:** React Hooks
+- **Geolocation:** Browser Geolocation API
+- **Image Processing:** File API with Camera integration
+
+---
+
+## 📁 Project Structure
+
+```
+baubay_2/
+├── components/
+│   ├── CartDrawer.tsx          # Shopping cart interface
+│   ├── ChatAssistant.tsx       # AI-powered chat
+│   ├── InventoryCard.tsx       # Material card component
+│   ├── ItemDetails.tsx         # Material detail view
+│   ├── NavBar.tsx              # Bottom navigation
+│   ├── ProfileModal.tsx        # User profile & requests
+│   └── Scanner.tsx             # Camera scanning interface
+├── services/
+│   └── geminiService.ts        # Gemini AI integration
+├── App.tsx                     # Main application component
+├── types.ts                    # TypeScript type definitions
+├── index.tsx                   # Application entry point
+├── vite.config.ts              # Vite configuration
+└── package.json                # Dependencies & scripts
+```
+
+---
+
+## 🎯 Use Cases
+
+1. **Construction Site Managers**: Track surplus materials and find reuse opportunities
+2. **Sustainability Officers**: Monitor environmental impact and circular economy metrics
+3. **Procurement Teams**: Source cost-effective reclaimed materials from nearby sites
+4. **Project Coordinators**: Match materials across multiple company projects
+
+---
+
+## 🌍 Environmental Impact
+
+BauBay helps construction teams:
+- **Reduce Landfill Waste** by facilitating material reuse
+- **Lower Carbon Footprint** through avoided material production
+- **Promote Circular Economy** in construction industry
+- **Track Sustainability Metrics** for ESG reporting
+
+---
+
+## 🛠️ Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+
+---
+
+## 📖 Documentation
+
+Comprehensive documentation is available in the `/docs` folder:
+
+**[📚 Documentation Index](./docs/README.md)**
+
+### Quick Links
+
+**Getting Started:**
+- [Installation Guide](./docs/installation.md) - Setup and configuration
+- [Architecture Overview](./docs/architecture.md) - System design and structure
+- [Components](./docs/components.md) - Detailed component docs
+- [Types Reference](./docs/types.md) - TypeScript definitions
+
+**Development:**
+- [Code Examples](./docs/reference/code-examples.md) - Common patterns and snippets
+- [Troubleshooting](./docs/reference/troubleshooting.md) - Solutions to common issues
+
+**Features:**
+- Material Scanner - AI-powered detection (coming soon)
+- Inventory Management - Material tracking (coming soon)
+- Marketplace - Material exchange (coming soon)
+- Chat Assistant - AI interface (coming soon)
+
+---
+
+## 🔗 Links
+
+- **Live Demo:** [AI Studio App](https://ai.studio/apps/drive/1jjZGmtihvBCLizVR1NtmE7x7_2CGbwkQ)
+- **Repository:** [github.com/HaarisIqubal/BauBay](https://github.com/HaarisIqubal/BauBay)
+- **Google Gemini:** [ai.google.dev](https://ai.google.dev/)
+
+---
+
+## 📄 License
+
+This project is built as part of the Google Gemini AI Studio demonstration.
+
+---
+
+## 🙏 Acknowledgments
+
+- Powered by **Google Gemini AI** for intelligent material recognition
+- Built with **React** and **Vite** for modern web development
+- Inspired by circular economy principles in construction
+
+---
+
+**Built with ❤️ for sustainable construction practices**
