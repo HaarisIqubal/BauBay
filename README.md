@@ -1,16 +1,24 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+<img src="./logo/baubay_logo.png" alt="BauBay Logo" width="300"/>
 
-# 🏗️ BauBay
+# BauBay
 
 **AI-Powered Construction Material Recovery & Marketplace Platform**
 
+<img src="./logo/Website ss.jpg" alt="BauBay Platform Screenshot" width="100%"/>
+
+</div>
+
 BauBay is an intelligent construction material management system that helps site managers identify, value, and trade surplus materials. By leveraging AI-powered material recognition and real-time marketplace features, BauBay promotes circular economy practices in the construction industry while reducing waste and maximizing resource recovery value.
+
+<div align="center">
 
 [![Powered by Google Gemini](https://img.shields.io/badge/Powered%20by-Google%20Gemini-4285F4?style=flat&logo=google)](https://ai.google.dev/)
 [![Built with React](https://img.shields.io/badge/Built%20with-React%2019-61DAFB?style=flat&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=flat&logo=vite)](https://vitejs.dev/)
+
+</div>
 
 ---
 
